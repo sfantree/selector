@@ -1,0 +1,11 @@
+import win;
+import win.ui;
+import console;
+import win.dlg.message;
+
+winDlgMessage = win.dlg.message(winform);
+
+win.loadForm("\dlg\winform1.aardio");
+winform1.show();
+
+return win.loopMessage();
